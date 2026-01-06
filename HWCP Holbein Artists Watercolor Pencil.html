@@ -90,15 +90,51 @@
   }
 
   @media (max-width: 600px) {
-
-    .colorName {
-      font-size: 0.6rem;
+    .inner {
+      margin: 1rem;
+      padding: 1rem;
     }
-    .colorName li:last-child {
-      font-size: 0.5rem;
+    h3 {
+      font-size: 1.8rem;
     }
     .clist-wrap {
-        gap: 5px;
+      gap: 10px; /* Smaller gap for mobile */
+    }
+    .clist-wrap > li {
+      width: calc(50% - 5px); /* Maintain 2 columns with smaller gap */
+      min-width: 0; /* Help flex items shrink */
+    }
+    .clist {
+      padding: 10px;
+    }
+    .clist img {
+      max-width: 80px;
+    }
+    .RefNumber {
+      font-size: 0.75rem;
+    }
+    .colorName {
+      font-size: 0.8rem;
+      overflow-wrap: break-word;
+      word-break: break-all;
+    }
+    .colorName li {
+        overflow-wrap: break-word;
+        word-break: break-all;
+    }
+    .colorName li:last-child {
+      font-size: 0.7rem;
+    }
+  }
+  @media (max-width: 400px) {
+    .RefNumber {
+        font-size: 0.7rem;
+    }
+    .colorName {
+        font-size: 0.7rem;
+    }
+    .colorName li:last-child {
+      font-size: 0.65rem;
     }
   }
 </style>
