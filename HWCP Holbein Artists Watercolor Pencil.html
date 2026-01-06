@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Holbein Artists' Watercolor Pencils</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  .inner {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 1rem;
+  }
+  .clist-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+  }
+  .clist-wrap > li {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .clist {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 90%;
+  }
+  .clist:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+  .clist img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .RefNumber {
+    display: inline-block;
+    font-family: monospace;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #555;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .colorName {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+  }
+  .colorName li:last-child {
+    font-size: 0.9rem;
+    color: #777;
+    font-weight: normal;
+  }
+  .spbr {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<section id="colorlist" class="contents is-visible">
+<div class="inner">
+<h3>Color list</h3>
+<ul class="clist-wrap">
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP010</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/01_wp010.png" alt="CRIMSON&nbsp;LAKE"></li>
+<li>
+<ul class="colorName">
+<li>CRIMSON&nbsp;LAKE</li>
+<li>クリムソン&nbsp;<br class="spbr">レーキ</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP005</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/02_wp005.png" alt="QUINACRIDONE&nbsp;RED"></li>
+<li>
+<ul class="colorName">
+<li>QUINACRIDONE&nbsp;RED</li>
+<li>キナクリドン&nbsp;<br class="spbr">レッド</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP012</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/03_wp012.png" alt="ROSE&nbsp;MADDER"></li>
+<li>
+<ul class="colorName">
+<li>ROSE&nbsp;MADDER</li>
+<li>ローズ&nbsp;マダー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP007</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/04_wp007.png" alt="PYRROLE&nbsp;RED"></li>
+<li>
+<ul class="colorName">
+<li>PYRROLE&nbsp;RED</li>
+<li>ピロール&nbsp;レッド</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP027</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/05_wp027.png" alt="QUINACRIDONE&nbsp;SCARLET"></li>
+<li>
+<ul class="colorName">
+<li>QUINACRIDONE&nbsp;SCARLET</li>
+<li>キナクリドン&nbsp;<br class="spbr">スカーレット</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP013</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/06_wp013.png" alt="OPERA"></li>
+<li>
+<ul class="colorName">
+<li>OPERA</li>
+<li>オペラ</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP025</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/07_wp025.png" alt="BRILLANT&nbsp;PINK"></li>
+<li>
+<ul class="colorName">
+<li>BRILLANT&nbsp;PINK</li>
+<li>ブリリアント&nbsp;<br class="spbr">ピンク</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP026</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/08_wp026.png" alt="SHELL&nbsp;PINK"></li>
+<li>
+<ul class="colorName">
+<li>SHELL&nbsp;PINK</li>
+<li>シェル&nbsp;ピンク</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP019</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/09_wp019.png" alt="VERMILION&nbsp;HUE"></li>
+<li>
+<ul class="colorName">
+<li>VERMILION&nbsp;HUE</li>
+<li>バーミリオン&nbsp;<br class="spbr">ヒュー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP047</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/10_wp047.png" alt="BRILLIANT&nbsp;ORANGE"></li>
+<li>
+<ul class="colorName">
+<li>BRILLIANT&nbsp;ORANGE</li>
+<li>ブリリアント&nbsp;<br class="spbr">オレンジ</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP032</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/11_wp032.png" alt="JAUNE&nbsp;BRILLANT&nbsp;No.2"></li>
+<li>
+<ul class="colorName">
+<li>JAUNE&nbsp;BRILLANT&nbsp;No.2</li>
+<li>ジョーン&nbsp;ブリヤン&nbsp;<br class="spbr">No.2</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP038</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/12_wp038.png" alt="PERMANENT&nbsp;YELLOW&nbsp;ORANGE"></li>
+<li>
+<ul class="colorName">
+<li>PERMANENT&nbsp;YELLOW&nbsp;ORANGE</li>
+<li>パーマネント&nbsp;<br class="spbr">イエロー&nbsp;オレンジ</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP049</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/13_wp049.png" alt="ISOINDOLINONE&nbsp;YELLOW&nbsp;DEEP"></li>
+<li>
+<ul class="colorName">
+<li>ISOINDOLINONE&nbsp;YELLOW&nbsp;DEEP</li>
+<li>イソインドリノン&nbsp;<br class="spbr">イエロー&nbsp;ディープ</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP037</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/14_wp037.png" alt="PERMANENT&nbsp;YELLOW&nbsp;DEEP"></li>
+<li>
+<ul class="colorName">
+<li>PERMANENT&nbsp;YELLOW&nbsp;DEEP</li>
+<li>パーマネント&nbsp;<br class="spbr">イエロー&nbsp;ディープ</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP030</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/15_wp030.png" alt="NAPLES&nbsp;YELLOW"></li>
+<li>
+<ul class="colorName">
+<li>NAPLES&nbsp;YELLOW</li>
+<li>ネイプルス&nbsp;<br class="spbr">イエロー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP050</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/16_wp050.png" alt="IMIDAZOLONE&nbsp;YELLOW"></li>
+<li>
+<ul class="colorName">
+<li>IMIDAZOLONE&nbsp;YELLOW</li>
+<li>イミダゾロン&nbsp;<br class="spbr">イエロー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP051</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/17_wp051.png" alt="IMIDAZOLONE&nbsp;LEMON"></li>
+<li>
+<ul class="colorName">
+<li>IMIDAZOLONE&nbsp;LEMON</li>
+<li>イミダゾロン&nbsp;<br class="spbr">レモン</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP033</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/18_wp033.png" alt="LEMON&nbsp;YELLOW"></li>
+<li>
+<ul class="colorName">
+<li>LEMON&nbsp;YELLOW</li>
+<li>レモン&nbsp;<br class="spbr">イエロー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP077</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/19_wp077.png" alt="LEAF&nbsp;GREEN"></li>
+<li>
+<ul class="colorName">
+<li>LEAF&nbsp;GREEN</li>
+<li>リーフ&nbsp;<br class="spbr">グリーン</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP074</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/20_wp074.png" alt="OLIVE&nbsp;GREEN"></li>
+<li>
+<ul class="colorName">
+<li>OLIVE&nbsp;GREEN</li>
+<li>オリーブ&nbsp;<br class="spbr">グリーン</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP075</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/21_wp075.png" alt="SAP&nbsp;GREEN"></li>
+<li>
+<ul class="colorName">
+<li>SAP&nbsp;GREEN</li>
+<li>サップ&nbsp;<br class="spbr">グリーン</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP065</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/22_wp065.png" alt="TERRE&nbsp;VERTE"></li>
+<li>
+<ul class="colorName">
+<li>TERRE&nbsp;VERTE</li>
+<li>テール&nbsp;ベルト</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP066</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/23_wp066.png" alt="PERMANENT&nbsp;GREEN&nbsp;No.1"></li>
+<li>
+<ul class="colorName">
+<li>PERMANENT&nbsp;GREEN&nbsp;No.1</li>
+<li>パーマネント&nbsp;<br class="spbr">グリーン&nbsp;No.1</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP067</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/24_wp067.png" alt="PERMANENT&nbsp;GREEN&nbsp;No.2"></li>
+<li>
+<ul class="colorName">
+<li>PERMANENT&nbsp;GREEN&nbsp;No.2</li>
+<li>パーマネント&nbsp;<br class="spbr">グリーン&nbsp;No.2</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP064</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/25_wp064.png" alt="EMERALD&nbsp;GREEN&nbsp;NOVA"></li>
+<li>
+<ul class="colorName">
+<li>EMERALD&nbsp;GREEN&nbsp;NOVA</li>
+<li>エメラルド&nbsp;<br class="spbr">グリーン&nbsp;ノーバ</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP061</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/26_wp061.png" alt="VIRIDIAN&nbsp;HUE"></li>
+<li>
+<ul class="colorName">
+<li>VIRIDIAN&nbsp;HUE</li>
+<li>ビリジャン&nbsp;ヒュー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP079</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/27_wp079.png" alt="SHADOW&nbsp;GREEN"></li>
+<li>
+<ul class="colorName">
+<li>SHADOW&nbsp;GREEN</li>
+<li>シャドー&nbsp;グリーン</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP099</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/28_wp099.png" alt="TURQUOISE&nbsp;BLUE"></li>
+<li>
+<ul class="colorName">
+<li>TURQUOISE&nbsp;BLUE</li>
+<li>ターコイズ&nbsp;<br class="spbr">ブルー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP104</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/29_wp104.png" alt="HORIZON&nbsp;BLUE"></li>
+<li>
+<ul class="colorName">
+<li>HORIZON&nbsp;BLUE</li>
+<li>ホリゾン&nbsp;<br class="spbr">ブルー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP102</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/30_wp102.png" alt="MARINE&nbsp;BLUE"></li>
+<li>
+<ul class="colorName">
+<li>MARINE&nbsp;BLUE</li>
+<li>マリン&nbsp;<br class="spbr">ブルー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP098</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/31_wp098.png" alt="INDIGO"></li>
+<li>
+<ul class="colorName">
+<li>INDIGO</li>
+<li>インジゴ</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP097</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/32_wp097.png" alt="PRUSSIAN&nbsp;BLUE"></li>
+<li>
+<ul class="colorName">
+<li>PRUSSIAN&nbsp;BLUE</li>
+<li>プルシャン&nbsp;<br class="spbr">ブルー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP107</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/33_wp107.png" alt="PHTHALO&nbsp;BLUE&nbsp;YELLOW&nbsp;SHADE"></li>
+<li>
+<ul class="colorName">
+<li>PHTHALO&nbsp;BLUE&nbsp;YELLOW&nbsp;SHADE</li>
+<li>フタロブルー&nbsp;<br class="spbr">イエロー&nbsp;シェード</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP091</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/34_wp091.png" alt="COBALT&nbsp;BLUE&nbsp;HUE"></li>
+<li>
+<ul class="colorName">
+<li>COBALT&nbsp;BLUE&nbsp;HUE</li>
+<li>コバルト&nbsp;ブルー&nbsp;<br class="spbr">ヒュー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP095</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/35_wp095.png" alt="VERDITER&nbsp;BLUE"></li>
+<li>
+<ul class="colorName">
+<li>VERDITER&nbsp;BLUE</li>
+<li>バヂター&nbsp;ブルー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP094</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/36_wp094.png" alt="ULTRAMARINE&nbsp;DEEP"></li>
+<li>
+<ul class="colorName">
+<li>ULTRAMARINE&nbsp;DEEP</li>
+<li>ウルトラマリン&nbsp;<br class="spbr">ディープ</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP116</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/37_wp116.png" alt="LAVENDER"></li>
+<li>
+<ul class="colorName">
+<li>LAVENDER</li>
+<li>ラベンダー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP115</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/38_wp115.png" alt="PERMANENT&nbsp;VIOLET"></li>
+<li>
+<ul class="colorName">
+<li>PERMANENT&nbsp;VIOLET</li>
+<li>パーマネント&nbsp;<br class="spbr">バイオレット</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP112</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/39_wp112.png" alt="MINERAL&nbsp;VIOLET"></li>
+<li>
+<ul class="colorName">
+<li>MINERAL&nbsp;VIOLET</li>
+<li>ミネラル&nbsp;<br class="spbr">バイオレット</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP119</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/40_wp119.png" alt="QUINACRIDONE&nbsp;MAGENTA"></li>
+<li>
+<ul class="colorName">
+<li>QUINACRIDONE&nbsp;MAGENTA</li>
+<li>キナクリドン&nbsp;<br class="spbr">マゼンタ</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP141</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/41_wp141.png" alt="IMIDAZOLONE&nbsp;BROWN"></li>
+<li>
+<ul class="colorName">
+<li>IMIDAZOLONE&nbsp;BROWN</li>
+<li>イミダゾロン&nbsp;<br class="spbr">ブラウン</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP134</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/42_wp134.png" alt="BURNT&nbsp;SIENNA"></li>
+<li>
+<ul class="colorName">
+<li>BURNT&nbsp;SIENNA</li>
+<li>バーント&nbsp;<br class="spbr">シェンナ</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP133</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/43_wp133.png" alt="BURNT&nbsp;UMBER"></li>
+<li>
+<ul class="colorName">
+<li>BURNT&nbsp;UMBER</li>
+<li>バーント&nbsp;<br class="spbr">アンバー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP131</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/44_wp131.png" alt="RAW&nbsp;UMBER"></li>
+<li>
+<ul class="colorName">
+<li>RAW&nbsp;UMBER</li>
+<li>ロー&nbsp;アンバー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP034</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/45_wp034.png" alt="YELLOW&nbsp;OCHRE"></li>
+<li>
+<ul class="colorName">
+<li>YELLOW&nbsp;OCHRE</li>
+<li>イエロー&nbsp;<br class="spbr">オーカー</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP136</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/46_wp136.png" alt="SEPIA"></li>
+<li>
+<ul class="colorName">
+<li>SEPIA</li>
+<li>セピア</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP138</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/47_wp138.png" alt="IVORY&nbsp;BLACK"></li>
+<li>
+<ul class="colorName">
+<li>IVORY&nbsp;BLACK</li>
+<li>アイボリ&nbsp;<br class="spbr">ブラック</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP156</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/48_wp156.png" alt="PAYNE'S&nbsp;GREY"></li>
+<li>
+<ul class="colorName">
+<li>PAYNE'S&nbsp;GREY</li>
+<li>ぺインズ&nbsp;<br class="spbr">グレイ</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP153</span></li>
+<li><img src="https://www.holbein.co.jp/dcms_media/image/49_wp153.png" alt="GREY&nbsp;OF&nbsp;GREY"></li>
+<li>
+<ul class="colorName">
+<li>GREY&nbsp;OF&nbsp;GREY</li>
+<li>グレイ&nbsp;オブ&nbsp;<br class="spbr">グレイ</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul class="clist">
+<li><span class="RefNumber">WP002</span></li>
+<li class="white"><img src="https://www.holbein.co.jp/dcms_media/image/50_wp002.png" alt="CHINESE&nbsp;WHITE"></li>
+<li>
+<ul class="colorName">
+<li>CHINESE&nbsp;WHITE</li>
+<li>チャイニーズ&nbsp;<br class="spbr">ホワイト</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+</body>
+</html>
